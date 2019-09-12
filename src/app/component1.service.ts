@@ -8,15 +8,15 @@ import { HttpClient } from '@angular/common/http';
 export class Component1Service {
 
   public username: string;
-  private access_token = '94f7adf5ca34b874b36a78180a901228ca929ff8';
+  private access_token = '485e56dd58e6ae43705255c924d4baef03409c76';
   public fav_repos = [];
   public currentrepo;
 
   @Output() public $repodetails = new EventEmitter();
   
   constructor(private http:HttpClient) { 
-    console.log("service is ready now");
-    this.username = 'Pranjal2997';
+    console.log("Service Works");
+    this.username = "Pranjal2997";
   }
 
   getProfileInfo() {

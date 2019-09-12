@@ -18,7 +18,7 @@ export class Component1Component implements OnInit {
   username: string = "Pranjal2997";
   my_repo_prop;
   enable_del;
-  access_token = "94f7adf5ca34b874b36a78180a901228ca929ff8";
+  access_token = "485e56dd58e6ae43705255c924d4baef03409c76";
   //public favourites:any;
 
   url_for_db = "http://localhost:3000/posts";
@@ -54,7 +54,7 @@ export class Component1Component implements OnInit {
   
 
   let options = {
-    headers: new HttpHeaders({ 'Authorization': 'token 2daa7f4202a03501763ddcc3a4139655ef1082fc' })
+    headers: new HttpHeaders({ 'Authorization': 'token 485e56dd58e6ae43705255c924d4baef03409c76' })
   }
   this.http.post(this.url, this.my_repo_prop, options).subscribe(s => this.repos.push(s));
   }

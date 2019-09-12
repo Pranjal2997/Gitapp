@@ -10,7 +10,7 @@ export class RepoDetailComponent implements OnInit {
 
   constructor(private profileSerive: Component1Service) { }
 
-  public repodetails:any[] ;
+  public repodetails :any[] ;
 
   callThisFunction() {
     console.log("Pranjal2997",this.repodetails);
